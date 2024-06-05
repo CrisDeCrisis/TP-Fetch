@@ -1,0 +1,22 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+
+header {
+    font-family: 'Pokemon Solid', sans-serif;
+    color: yellow;
+    text-shadow: -3px 0 blue, 0 3px blue, 3px 0 blue, 0 -3px blue;
+}
+
+body {
+    background: linear-gradient(to right, orange, red);
+}
+
+.card {
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.img-container {
+    background-image: url(/assets/img/blob.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
