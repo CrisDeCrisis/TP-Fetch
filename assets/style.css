@@ -13,10 +13,15 @@ body {
 .card {
     min-width: 200px;
     min-height: 200px;
+    border: 2px solid black;
+    background: linear-gradient(to top, rgb(213, 6, 6), rgb(255, 171, 14));
 }
 
 .img-container {
     background-image: url(/assets/img/blob.svg);
     background-repeat: no-repeat;
     background-position: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
 }
